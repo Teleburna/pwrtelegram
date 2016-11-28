@@ -1,21 +1,21 @@
 {
-    "name": "pwrtelegram/pwrtelegram",
+    "name": "Teleburna/pwrtelegram",
     "description": "Boosted version of telegram's bot API",
     "type": "project",
     "require": {
-        "pwrtelegram/telegram-cli-client": "^0.6.0",
+        "Teleburna/telegram-cli-client": "^0.6.0",
         "mhor/php-mediainfo": "^2.2"
     },
     "license": "AGPLv3",
     "authors": [
         {
-            "name": "Daniil Gentili",
-            "email": "daniil.gentili.dg@gmail.com"
+            "name": "Teleburna",
+            "email": "Teleburna.gentili.dg@gmail.com"
         }
     ],
     "autoload": {
         "psr-0": {
-            "PWRTelegram\\PWRTelegram\\": "src/"
+            "Teleburna\\PWRTelegram\\": "src/"
         }
     }
 }
